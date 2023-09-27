@@ -1,0 +1,73 @@
+
+.introduction {
+    font-weight: 750;
+    font-size: 75px; 
+}
+
+.title {
+    font-weight: 750;
+    font-size: 56px; 
+}
+
+p {
+    font-size: 20px; 
+}
+
+.reviews {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(146, 66, 66);
+    color: white;
+    text-align: center;
+}
+
+.reviews h1 {
+    font-weight: 700;
+    font-size: 27px; 
+}
+
+.contact-us-title {
+    font-weight: 900;
+    font-size: 33px; 
+}
+
+.join {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Réduisez la taille de la police pour les téléphones */
+@media (max-width: 768px) {
+    .form {
+        display: none;
+    }
+
+    .introduction {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .reviews h1 {
+        font-size: 18px;
+    }
+
+    .contact-us-title {
+        font-size: 27px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
