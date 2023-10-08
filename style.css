@@ -1,4 +1,28 @@
+/* Animation */
+.firstparag {
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+.firstPic {
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
 
+.secondPic {
+    animation-delay: 4s;
+    animation-duration: 3s;
+}
+
+.thirtPic {
+    animation-delay: 6s;
+    animation-duration: 3s;
+}
+
+.fourth {
+    animation-delay: 8s;
+    animation-duration: 2s;
+}
+/* Introduction */
 .introduction {
     font-weight: 750;
     font-size: 75px; 
